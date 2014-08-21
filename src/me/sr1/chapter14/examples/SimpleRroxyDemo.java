@@ -2,6 +2,13 @@ package me.sr1.chapter14.examples;
 
 import static me.sr1.util.Print.*;
 
+/**
+ * 当你想将额外的操作从实际的对象分离到不同的地方，
+ * 又希望能很容易作出修改时，就可以使用代理模式。
+ * 
+ * @author sr1
+ *
+ */
 interface Interface {
 	void doSomething();
 	void somethingElse(String arg);
