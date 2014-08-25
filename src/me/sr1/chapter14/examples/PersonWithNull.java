@@ -20,8 +20,13 @@ public class PersonWithNull {
 	public static class NullPerson
 	  extends PersonWithNull
 	    implements Null {
+		
 		private NullPerson() {
-		super("None", "None", "None");
+			super("None", "None", "None");
+		}
+		
+		public String toString() {
+			return "NullPerson";
 		}
 	}
 	
